@@ -21,4 +21,4 @@ button.addEventListener('click', function() {
     statusText.style.fontWeight = 'normal';
     isCompleted = false;
     }
-})
+});
