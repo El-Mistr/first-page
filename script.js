@@ -22,3 +22,13 @@ button.addEventListener('click', function() {
     isCompleted = false;
     }
 });
+const resetButton = document.querySelector('#reset-btn');
+
+resetButton.addEventListener('click', function() {
+    clickCount = 0;
+    isCompleted = false;
+    clickCounter.textContent = `Нажатий ${clickCount}`;
+    statusText.textContent = 'Статус в процессе';
+    statusText.style.color = '';
+    statusText.style.fontWeight = 'normal';
+});
